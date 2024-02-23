@@ -1,0 +1,25 @@
+#include<iostream>
+
+vector
+
+
+
+
+main()
+{
+	vector<> 입력값을 저장하기 위한 백터
+	vector<> 입력 여부 체크를 위한 벡터
+
+	cin >> 노드 개수, 에지 개수, 시작점
+	
+	for(노드 개수만큼 반복)
+	{
+		
+	}
+}
+
+
+void DFS()
+
+
+void BFS()
