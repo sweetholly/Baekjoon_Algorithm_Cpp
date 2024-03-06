@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/workspaces/Baekjoon_Algorithm_Cpp/build",
+  "command": "/usr/bin/g++    -g   -o CMakeFiles/algo_study.dir/main.cpp.o -c /workspaces/Baekjoon_Algorithm_Cpp/main.cpp",
+  "file": "/workspaces/Baekjoon_Algorithm_Cpp/main.cpp"
+}
+]
