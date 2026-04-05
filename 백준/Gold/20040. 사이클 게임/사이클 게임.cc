@@ -9,7 +9,7 @@ int main() {
     vector<int> sz(n, 1);
     for (int i = 0; i < n; i++) {
         parent[i] = i;
-    };
+    }
 
     int answer = 0;
 
@@ -19,7 +19,9 @@ int main() {
 
         // a의 루트 찾기
         int ra = a;
-        while (parent[ra] != ra) ra = parent[ra];
+        while (parent[ra] != ra) {
+            ra = parent[ra];
+        }
         int cur = a;
         while (parent[cur] != cur) {
             int nxt = parent[cur];
