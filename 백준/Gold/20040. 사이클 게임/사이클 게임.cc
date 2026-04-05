@@ -22,23 +22,11 @@ int main() {
         while (parent[ra] != ra) {
             ra = parent[ra];
         }
-        int cur = a;
-        while (parent[cur] != cur) {
-            int nxt = parent[cur];
-            parent[cur] = ra;
-            cur = nxt;
-        }
 
         // b의 루트 찾기
         int rb = b;
         while (parent[rb] != rb) {
             rb = parent[rb];
-        }
-        cur = b;
-        while (parent[cur] != cur) {
-            int nxt = parent[cur];
-            parent[cur] = rb;
-            cur = nxt;
         }
 
         if (ra == rb) {
