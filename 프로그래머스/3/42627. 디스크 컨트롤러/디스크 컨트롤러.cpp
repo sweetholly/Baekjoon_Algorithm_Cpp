@@ -38,11 +38,11 @@ int solution(vector<vector<int>> jobs) {
             currentTime = jobs[jobIndex][0];
             continue;
         }
-        auto [work_time, request_time] = workQueue.top();
+        auto [work_time, requestTime] = workQueue.top();
         workQueue.pop();
 
         currentTime += work_time;
-        totalTurnaroundTime += currentTime - request_time;
+        totalTurnaroundTime += currentTime - requestTime;
         completed++;
     }
     answer = totalTurnaroundTime / n;
